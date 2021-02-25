@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 ''' This script will take the input, filter out the relevant information,
 and output that information in the desired format.
-
+--------------------------------------------------------------------------------
 OPS435 Assignment 1 - Winter 2021
 Program: a1_mamicall.py
 Author: Michael Micallef
@@ -13,7 +13,6 @@ with anyone or anything except for submission for grading.
 I understand that the Academic Honesty Policy will be enforced and 
 violators will be reported and appropriate action will be taken.
 '''
-
 import os
 import sys
 
@@ -69,21 +68,19 @@ def size_check(obj, intobj):
     
 
 
-
 def range_check(obj1, obj2):
     '''
     This function will compare the date provided against an accepted range, 
     and return "true" if it is within range and "false" if it is not. 
     '''
-    rang = tuple(obj2)
-    
-    if obj1 < rang[0] and obj1 > rang[1]:
+   
+ 
+    if obj1 < obj2[0] and obj1 > obj2[1]:
         return False
     else: 
         return True
     
     
-
 
 
 def usage():    
