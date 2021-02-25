@@ -1,0 +1,20 @@
+Algorithm for Assignment 1
+First Iteration
+By: Michael Micallef
+
+Step 1: Check for user input. 
+
+Step 2: Compare user info against accepted character list, and remove
+	unwanted characters.
+
+Step 3: Compare the length of input against the required length.
+
+Step 4: Split user input into sections.
+
+Step 5: Compare sections against acceptable ranges for year and month.
+
+Step 6: Check if user input is a leap year.
+
+Step 7: Compare sections against the acceptable range for the day.
+
+Step 8: Convert input to new format and print to standard output. 
